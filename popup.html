@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Youtube Dark Mode</title>
+</head>
+<body style="width: 400px;">
+    <div class="container p-3">
+        <div class="my-2">
+            <input type="url" name="channel_link" id="channel_link" placeholder="Place Channel's link video section..." class="form-control">
+        </div>
+        <div class="my-2">
+            <input type="text" name="videoId" id="videoId" placeholder="Place Video Id here..." class="form-control" >
+        </div>
+        <div class="my-2">
+            <input type="number" name="delay" id="delay" placeholder="Enter time in seconds..." class="form-control" >
+        </div>
+        <div class="my-2">
+            <button id="startBtn" class="m-1 btn btn-success bordered">Start</button>
+            <button id="stopBtn" class="m-1 btn btn-danger bordered">Stop</button>
+        </div>
+    </div>
+    <script defer src="popup.js"></script>
+</body>
+</html>
